@@ -1,0 +1,14 @@
+1.	Write common sides and differences between merge and rebase commands.
+Git rebase and merge both integrate changes from one branch into another, but do it in different ways. Git rebase moves one branch into another. Git merge adds a new commit, preserving the history. 
+2.	Merge cons: 
+-	simple to use and understand; 
+-	preserves complete history and chronological order;
+-	maintains the original context of the source branch.
+Merge pros:  merge generally creates extra commits.
+Rebase cons: 
+-	code history is simplified, linear and readable;
+-	avoid polluting the history with 20+ single-line commits.
+Rebase pros:
+-	rebasing doesn't work with pull requests, because you can't see what minor changes someone made; 
+-	rewriting of history is bad for teamwork.
+Appropriate situation to use rebasing is the work alone on the individual branch or when the team is small and you have good communication into it and high quality of code review. In the other cases is more preferable using of merge.
