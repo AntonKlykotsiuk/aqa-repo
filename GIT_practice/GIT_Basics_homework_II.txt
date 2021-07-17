@@ -1,0 +1,130 @@
+9b42eb2 HEAD@{0}: merge develop: Fast-forward
+0318391 HEAD@{1}: checkout: moving from develop to main
+9b42eb2 HEAD@{2}: checkout: moving from first to develop
+cab9b9e HEAD@{3}: checkout: moving from develop to first
+9b42eb2 HEAD@{4}: merge first: Merge made by the 'recursive' strategy.
+89e3af9 HEAD@{5}: checkout: moving from first to develop
+cab9b9e HEAD@{6}: checkout: moving from develop to first
+89e3af9 HEAD@{7}: checkout: moving from first to develop
+cab9b9e HEAD@{8}: rebase (finish): returning to refs/heads/first
+cab9b9e HEAD@{9}: rebase (pick): add other code to first_file
+54f85e0 HEAD@{10}: rebase (pick): add some code to first_file
+f6e9874 HEAD@{11}: rebase (pick): add first_file
+0318391 HEAD@{12}: rebase (start): checkout 6ae99a8a~
+e475fc7 HEAD@{13}: rebase (abort): updating HEAD
+19f795a HEAD@{14}: rebase (start): checkout e64e93643~
+e475fc7 HEAD@{15}: rebase (finish): returning to refs/heads/first
+e475fc7 HEAD@{16}: rebase (squash): add other code to first_file
+6ebfd4f HEAD@{17}: rebase (start): checkout 6ebfd4f55~
+0367ae2 HEAD@{18}: rebase (finish): returning to refs/heads/first
+0367ae2 HEAD@{19}: rebase (start): checkout 6ebfd4f55~
+0367ae2 HEAD@{20}: rebase (finish): returning to refs/heads/first
+0367ae2 HEAD@{21}: rebase (squash): add third code to the first_file
+6696699 HEAD@{22}: rebase (start): checkout e64e9364~
+3577f42 HEAD@{23}: commit: add the last code to the first_file
+6696699 HEAD@{24}: commit: add third code to the first_file
+6ebfd4f HEAD@{25}: reset: moving to HEAD~
+3bd4b21 HEAD@{26}: rebase (finish): returning to refs/heads/first
+3bd4b21 HEAD@{27}: rebase (start): checkout HEAD~2
+3bd4b21 HEAD@{28}: rebase (finish): returning to refs/heads/first
+3bd4b21 HEAD@{29}: rebase (start): checkout HEAD~
+3bd4b21 HEAD@{30}: rebase (finish): returning to refs/heads/first
+3bd4b21 HEAD@{31}: rebase (squash): add third code to first_file
+4a67c63 HEAD@{32}: rebase (start): checkout HEAD~3
+0c8fd8e HEAD@{33}: rebase (finish): returning to refs/heads/first
+0c8fd8e HEAD@{34}: rebase (start): checkout HEAD~5
+0c8fd8e HEAD@{35}: rebase (finish): returning to refs/heads/first
+0c8fd8e HEAD@{36}: rebase (start): checkout 4a67c6357~
+0c8fd8e HEAD@{37}: checkout: moving from second to first
+a269e63 HEAD@{38}: checkout: moving from develop to second
+89e3af9 HEAD@{39}: merge second: Merge made by the 'recursive' strategy.
+527415f HEAD@{40}: checkout: moving from second to develop
+a269e63 HEAD@{41}: rebase (finish): returning to refs/heads/second
+a269e63 HEAD@{42}: rebase (pick): add some code to 2 file
+9d691ab HEAD@{43}: rebase (pick): add some code to 1 file
+8515abf HEAD@{44}: rebase (reword): add other_second_file with some code
+ac6b497 HEAD@{45}: rebase: fast-forward
+8811b19 HEAD@{46}: rebase (start): checkout ac6b4976b~
+6ac7ef1 HEAD@{47}: rebase (abort): updating HEAD
+d919a44 HEAD@{48}: rebase (reword): add other_second_file with code
+ac6b497 HEAD@{49}: rebase: fast-forward
+8811b19 HEAD@{50}: rebase (start): checkout ac6b4976b~
+6ac7ef1 HEAD@{51}: checkout: moving from develop to second
+527415f HEAD@{52}: checkout: moving from second to develop
+6ac7ef1 HEAD@{53}: rebase (continue) (finish): returning to refs/heads/second
+6ac7ef1 HEAD@{54}: commit: add some code to 2 file
+d11a1cd HEAD@{55}: commit: add some code to 1 file
+ac6b497 HEAD@{56}: reset: moving to HEAD~
+6412f04 HEAD@{57}: rebase: fast-forward
+ac6b497 HEAD@{58}: rebase (start): checkout 6412f0438~
+527415f HEAD@{59}: checkout: moving from second to develop
+6412f04 HEAD@{60}: rebase (abort): updating HEAD
+a17e06a HEAD@{61}: commit: add some code to 1 file
+ac6b497 HEAD@{62}: reset: moving to HEAD~
+6412f04 HEAD@{63}: rebase: fast-forward
+ac6b497 HEAD@{64}: rebase (start): checkout 6412f0438~
+6412f04 HEAD@{65}: rebase (finish): returning to refs/heads/second
+6412f04 HEAD@{66}: rebase (start): checkout 6412f0438
+527415f HEAD@{67}: rebase (finish): returning to refs/heads/develop
+527415f HEAD@{68}: rebase (pick): add some code to dev_file
+41e0b66 HEAD@{69}: rebase (pick): add dev_file
+6412f04 HEAD@{70}: rebase (start): checkout second
+627ef46 HEAD@{71}: checkout: moving from second to develop
+6412f04 HEAD@{72}: commit: add some code to 2 files
+ac6b497 HEAD@{73}: commit: add empty other_second_file
+8811b19 HEAD@{74}: commit: add the last code to second_file
+7ebb725 HEAD@{75}: commit: add the first code to second_file
+b58c223 HEAD@{76}: commit: add empty second_file
+6ae99a8 HEAD@{77}: checkout: moving from first to second
+0c8fd8e HEAD@{78}: commit: add the last code to first_file
+4a67c63 HEAD@{79}: commit: add third code to first_file
+6ebfd4f HEAD@{80}: commit: add other code to first_file
+e64e936 HEAD@{81}: commit: add some code to first_file
+19f795a HEAD@{82}: commit: add first_file
+6ae99a8 HEAD@{83}: checkout: moving from develop to first
+627ef46 HEAD@{84}: commit: add some code to dev_file
+8bb9369 HEAD@{85}: commit: add dev_file
+6ae99a8 HEAD@{86}: commit: add some_file.txt and folder
+0318391 HEAD@{87}: checkout: moving from main to develop
+0318391 HEAD@{88}: checkout: moving from develop to main
+0318391 HEAD@{89}: checkout: moving from main to develop
+0318391 HEAD@{90}: checkout: moving from develop to main
+0318391 HEAD@{91}: checkout: moving from main to develop
+0318391 HEAD@{92}: merge develop: Fast-forward
+6281924 HEAD@{93}: checkout: moving from styles2 to main
+0318391 HEAD@{94}: rebase (finish): returning to refs/heads/styles2
+0318391 HEAD@{95}: rebase (start): checkout develop
+abc8435 HEAD@{96}: checkout: moving from develop to styles2
+0318391 HEAD@{97}: rebase (continue) (finish): returning to refs/heads/develop
+0318391 HEAD@{98}: rebase (continue): add images2 to index.html
+6280286 HEAD@{99}: rebase (pick): add images2 folder
+abc8435 HEAD@{100}: rebase (start): checkout styles2
+3cb06ca HEAD@{101}: checkout: moving from images2 to develop
+3cb06ca HEAD@{102}: checkout: moving from develop to images2
+3cb06ca HEAD@{103}: rebase (finish): returning to refs/heads/develop
+3cb06ca HEAD@{104}: rebase (start): checkout images2
+6281924 HEAD@{105}: checkout: moving from styles2 to develop
+abc8435 HEAD@{106}: commit: add styles2 to index.html
+15c06b8 HEAD@{107}: commit: add styles2 folder
+6281924 HEAD@{108}: checkout: moving from develop to styles2
+6281924 HEAD@{109}: checkout: moving from images2 to develop
+3cb06ca HEAD@{110}: commit: add images2 to index.html
+67bf7e6 HEAD@{111}: commit: add images2 folder
+6281924 HEAD@{112}: checkout: moving from develop to images2
+6281924 HEAD@{113}: checkout: moving from main to develop
+6281924 HEAD@{114}: merge develop: Fast-forward
+b478d61 HEAD@{115}: checkout: moving from develop to main
+6281924 HEAD@{116}: commit (merge): Merge branch 'styles' into develop
+f7e87fe HEAD@{117}: merge images: Fast-forward
+d4685f0 HEAD@{118}: checkout: moving from styles to develop
+7a5abbb HEAD@{119}: commit: add styles to index.html
+061af40 HEAD@{120}: commit: add folder styles
+d4685f0 HEAD@{121}: checkout: moving from develop to styles
+d4685f0 HEAD@{122}: checkout: moving from images to develop
+f7e87fe HEAD@{123}: commit: add images to index.html
+f2fe1c1 HEAD@{124}: commit: add folder images
+d4685f0 HEAD@{125}: checkout: moving from develop to images
+d4685f0 HEAD@{126}: commit: add empty index.html
+b478d61 HEAD@{127}: checkout: moving from main to develop
+b478d61 HEAD@{128}: commit: add folder for task1
+98a61fe HEAD@{129}: clone: from gitlab.com:AntonKlykotsiuk/preproduction_practice.git
