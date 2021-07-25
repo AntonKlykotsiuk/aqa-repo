@@ -1,0 +1,64 @@
+Общие требования:
+1)	Код приложения должен быть отформатирован в едином стиле и соответствовать Java Code Convention.
+2)	Решение поставленной задачи, должно быть реализовано в классе, который находится в пакете
+com.epam.firstname_lastname.java.lecture_number.task_number,
+например: com.epam.oleksii_perets.java.lection3.task1.
+3)	Класс, который содержит main-метод, должен иметь осмысленное название.
+Внутри метода main создайте объект его класса, у которого вызовете метод,
+являющийся стартовым для решения вашей задачи.
+Пример:
+
+public class ApplicationName {
+    public static void main(String[] args) {
+        ApplicationName app = new ApplicationName();
+        app.startApplication();
+    }
+    public void startApplication() {
+        //далее выполняется приложение
+    }
+}
+
+4)	Если приложение содержит консольные меню или ввод/вывод,
+то они должны быть минимальными, достаточными и интуитивно понятными.
+5)	По возможности документируя код.
+
+Lecture 3 (HW3):
+1	Написать программу, осуществляющую обработку массива.
+Исходные условия: массив содержит только целые числа от -10 до 10
+(допускается генерация элементов с помощью метода (int) Math.random()),
+программа должна выводить в консоль исходный массив и полученный результат,
+количество элементов в массиве 20. Java Collection API использовать запрещено.
+Варианты задания:
+6.	В массиве целых чисел вывести все элементы,
+которые встречаются больше одного раза и индексы которых нечётные.
+
+2	Написать программу, осуществляющую обработку строк.
+Варианты заданий:
+6.	Ввести n слов с консоли. Найти слово, состоящее только из цифр.
+Если таких слов больше одного, найти второе из них.
+
+3	Написать калькулятор – программа, которая на входе получает два целых числа (число А и число В),
+выполняет арифметическую операцию («+» - сложение, «-» - вычитание, «*» - умножение, «/» - деление)
+и выводит результат в консоль. Для каждой операции использовать отдельный метод.
+
+Lecture 3 (HW1):
+1	Create program for handling arrays.
+Initial conditions: Array contains only integer values from range [-10; 10] (random numbers).
+There should be 20 elements in array. Java Collection API is prohibited.
+Your program should print to console information below:
+1.	Initial array;
+2.	Result of array modification according to one of next task:
+2.6.	Find elements that occur more than one time in an array and have odd index.
+
+2	Create program for handling String objects.
+Variants of tasks:
+6.	Read n words from console. Find word that has only digits.
+If you find several words, program should print the second one.
+
+3	Implement calculator – program that accept two integer values (number A and number B),
+execute 4 mathematical operations:
+-	“+” – sum;
+-	“-“ – subtraction;
+-	“*” – multiplication;
+-	“/” – dividing.
+Print result of all operations to console. For each math operation create different Java method.
